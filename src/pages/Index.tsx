@@ -26,6 +26,9 @@ const Index = () => (
     <Header />
 
     <main className="pt-6">
+      <h1 className="sr-only">
+        LINEA — minimalist fine jewelry, handmade in Antwerp
+      </h1>
       <FiftyFiftySection />
 
       {/* Featured collections */}
