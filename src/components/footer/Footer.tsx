@@ -18,12 +18,12 @@ const Footer = () => {
             <div className="space-y-2 text-sm font-light text-black/70">
               <div>
                 <p className="font-normal text-black mb-1">Visit Us</p>
-                <p>123 Madison Avenue</p>
-                <p>New York, NY 10016</p>
+                <p>Kloosterstraat 42</p>
+                <p>2000 Antwerp, Belgium</p>
               </div>
               <div>
                 <p className="font-normal text-black mb-1 mt-3">Contact</p>
-                <p>+1 (212) 555-0123</p>
+                <p>+32 3 555 0148</p>
                 <p>care@lineajewelry.com</p>
               </div>
             </div>
