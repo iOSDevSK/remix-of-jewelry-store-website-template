@@ -24,7 +24,7 @@ const Footer = () => {
               <div>
                 <p className="font-normal text-black mb-1 mt-3">Contact</p>
                 <p>+1 (212) 555-0123</p>
-                <p>hello@lineajewelry.com</p>
+                <p>care@lineajewelry.com</p>
               </div>
             </div>
           </div>
@@ -35,11 +35,11 @@ const Footer = () => {
             <div>
               <h4 className="text-sm font-normal mb-4">Shop</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">New In</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Rings</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Earrings</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Bracelets</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Necklaces</a></li>
+                <li><a href="/shop?sort=newest" className="text-sm font-light text-black/70 hover:text-black transition-colors">New In</a></li>
+                <li><a href="/shop?category=rings" className="text-sm font-light text-black/70 hover:text-black transition-colors">Rings</a></li>
+                <li><a href="/shop?category=earrings" className="text-sm font-light text-black/70 hover:text-black transition-colors">Earrings</a></li>
+                <li><a href="/shop?category=bracelets" className="text-sm font-light text-black/70 hover:text-black transition-colors">Bracelets</a></li>
+                <li><a href="/shop?category=necklaces" className="text-sm font-light text-black/70 hover:text-black transition-colors">Necklaces</a></li>
               </ul>
             </div>
 
@@ -47,11 +47,11 @@ const Footer = () => {
             <div>
               <h4 className="text-sm font-normal mb-4">Support</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Size Guide</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Care Instructions</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Returns</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Shipping</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Contact</a></li>
+                <li><a href="/about/size-guide" className="text-sm font-light text-black/70 hover:text-black transition-colors">Size Guide</a></li>
+                <li><a href="/about/customer-care" className="text-sm font-light text-black/70 hover:text-black transition-colors">Care Instructions</a></li>
+                <li><a href="/about/customer-care" className="text-sm font-light text-black/70 hover:text-black transition-colors">Returns</a></li>
+                <li><a href="/about/customer-care" className="text-sm font-light text-black/70 hover:text-black transition-colors">Shipping</a></li>
+                <li><a href="/contact" className="text-sm font-light text-black/70 hover:text-black transition-colors">Contact</a></li>
               </ul>
             </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Instagram</a></li>
                 <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Pinterest</a></li>
-                <li><a href="#" className="text-sm font-light text-black/70 hover:text-black transition-colors">Newsletter</a></li>
+                <li><a href="/#newsletter" className="text-sm font-light text-black/70 hover:text-black transition-colors">Newsletter</a></li>
               </ul>
             </div>
           </div>
